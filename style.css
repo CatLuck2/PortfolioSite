@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
 body {
-    font-family: "メイリオ","Hiragino Kaku Gothic Pro",sans-serif
+    font-family: "メイリオ","Hiragino Kaku Gothic Pro",sans-serif;
+}
+
+.home {
+    background-color: aqua;
+}
+.profile {
+    background-color: red;
+}
+.skill {
+    background-color: blue;
+}
+.portfolio {
+    background-color: green;
+}
+.contact {
+    background-color: yellow;
 }
