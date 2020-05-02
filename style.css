@@ -7,8 +7,16 @@ body {
 .home {
     
 }
+.home-image {
+    max-width: 100%;
+    vertical-align: bottom;
+}
 .profile {
     background-color: red;
+}
+.profile-image {
+    max-width: 20%;
+    border-radius: 300px;
 }
 .skill {
     background-color: blue;
