@@ -1,9 +1,14 @@
+/*
+お問い合わせアイコン：https://it-ti.work/material/detail/31/
+*/
 @charset "UTF-8";
 
 body {
     font-family: "メイリオ","Hiragino Kaku Gothic Pro",sans-serif;
 }
 
+
+/*ホーム*/
 .home {
     
 }
@@ -11,6 +16,8 @@ body {
     max-width: 100%;
     vertical-align: bottom;
 }
+
+/*プロフィール*/
 .profile {
     background-color: red;
 }
@@ -18,12 +25,117 @@ body {
     max-width: 20%;
     border-radius: 300px;
 }
+
+/*スキル*/
 .skill {
     background-color: blue;
 }
+
+/*ポートフォリオ*/
 .portfolio {
     background-color: green;
 }
+
+/*お問い合わせ*/
 .contact {
     background-color: yellow;
+}
+/*Twitter*/
+a.icon-twitter {
+    display: inline-block;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin:2px;
+    font-size: 25px;
+    color:#ffffff;
+    border-radius: 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.3s;
+  }
+a.icon-twitter:hover {
+    opacity: 0.8;
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+}
+a.btn-icon-twitter {
+    background: #22b8ff;
+}
+/*GitHub*/
+a.icon-github {
+    display: inline-block;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin:2px;
+    font-size: 25px;
+    color:#ffffff;
+    border-radius: 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.3s;
+}
+a.icon-github:hover {
+    opacity: 0.8;
+    -webkit-transform: translateY(2px);
+    transform: translateY(2px);
+}
+a.btn-icon-gihtub {
+    background: #22b8ff;
+}
+/*メール*/
+a.icon-mail
+{
+  display: inline-block;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  margin: 2px;
+  font-size: 25px;
+  color: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+a.icon-mail:hover
+{
+  opacity: 0.8;
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+}
+a.btn-circle-mail
+{
+  background: #22b8ff;
+}
+/*ブログ*/
+a.icon-blog
+{
+  display: inline-block;
+  text-decoration: none;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  margin: 2px;
+  font-size: 25px;
+  color: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.3s;
+}
+a.icon-blog:hover
+{
+  opacity: 0.8;
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+}
+a.btn-circle-blog
+{
+  background: #22b8ff;
 }
