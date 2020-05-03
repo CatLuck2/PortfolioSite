@@ -64,9 +64,6 @@ body {
 
 
 /*ホーム*/
-.home {
-    
-}
 .home-image {
     max-width: 100%;
     vertical-align: bottom;
@@ -147,7 +144,7 @@ a.icon-twitter {
     text-align: center;
     overflow: hidden;
     transition: 0.3s;
-  }
+}
 a.icon-twitter:hover {
     opacity: 0.8;
     -webkit-transform: translateY(2px);
@@ -236,10 +233,19 @@ a.btn-circle-blog
 
 /*フッター*/
 .references {
-    width: 1000px;
+    width: 300px;
     margin: 20px auto;
 }
+.references p {
+    text-align: center;
+}
+.references a {
+    text-align: center;
+}
 .copyright {
-    width: 400px;
+    width: 320px;
     margin: 20px auto;
+}
+.copyright p {
+    text-align: center;
 }
