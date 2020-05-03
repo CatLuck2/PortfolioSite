@@ -130,6 +130,22 @@ body {
 .contact {
     background-color: yellow;
 }
+.contact-text p {
+    width: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+.contact-icon {
+    width: 500px;
+    margin: 20px auto;
+}
+.contact-icon-box {
+    text-align: center;
+}
+.contact-icon p {
+    width: 20%;
+    padding: 0 10px;
+}
 /*Twitter*/
 a.icon-twitter {
     display: inline-block;
