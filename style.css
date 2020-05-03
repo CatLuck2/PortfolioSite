@@ -97,7 +97,7 @@ body {
 
 /*プロフィール*/
 .profile {
-    /* background-color: red; */
+    background-color: #EEEEEE;
 }
 .profile:after {
     content:"";
@@ -105,6 +105,8 @@ body {
     clear: both;
 }
 .profile p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 300%;
     text-align: center;
 }
 .profile-box1 {
@@ -138,13 +140,15 @@ body {
 
 /*スキル*/
 .skill {
-    background-color: #EEEEEE;
+    /* background-color: #EEEEEE; */
 }
 .skill-text {
     width: 300px;
     margin: 20px auto;
 }
 .skill-text p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 300%;
     text-align: center;
 }
 .skill-icon {
@@ -165,6 +169,8 @@ body {
     background-color: #EEEEEE;
 }
 .portfolio-text p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 300%;
     text-align: center;
 }
 .portfolio-app {
@@ -182,6 +188,8 @@ body {
     /* background-color: yellow; */
 }
 .contact-text p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 300%;
     width: 200px;
     margin: 20px auto;
     text-align: center;
@@ -309,6 +317,10 @@ a.btn-circle-blog
 .references p {
     margin: 0;
     text-align: center;
+}
+.ref-title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 300%;
 }
 .ref-contact a {
     font-size: 10px;
