@@ -44,7 +44,7 @@ body {
     text-decoration: none;
 }
 .menu li a:hover {
-    
+
 }
 .menu ul:after{
     content: "";
@@ -91,6 +91,9 @@ body {
 /*ポートフォリオ*/
 .portfolio {
     background-color: green;
+}
+.btn-app {
+    max-width: 300px;
 }
 
 /*お問い合わせ*/
