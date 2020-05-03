@@ -4,10 +4,15 @@
 @charset "UTF-8";
 
 body {
+    margin: 0;
     font-family: "メイリオ","Hiragino Kaku Gothic Pro",sans-serif;
 }
 
 /*メニュー*/
+.menu-box {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .menu-box:after {
     content: "";
     display: block;
@@ -15,11 +20,11 @@ body {
 }
 .menu-box1 {
     float: left;
-    width: 50%;
+    width: auto;
 }
 .menu-box2 {
-    float: left;
-    width: 50%;
+    float: right;
+    width: auto;
 }
 /*タイトル*/
 .title h1 a{
@@ -36,15 +41,15 @@ body {
     padding: 0;
     list-style: none;
 }
-.menu li a{
+.menu li a {
     display: block;
-    padding: 5px;
+    padding: 10px 15px;
     color: #000000;
     font-size: 14px;
     text-decoration: none;
 }
 .menu li a:hover {
-
+    background-color: #000000;
 }
 .menu ul:after{
     content: "";
@@ -198,4 +203,13 @@ a.icon-blog:hover
 a.btn-circle-blog
 {
   background: #22b8ff;
+}
+
+/*フッター*/
+.references {
+    margin: 20px 30px;
+}
+.copyright {
+    width: 400px;
+    margin: 20px auto;
 }
