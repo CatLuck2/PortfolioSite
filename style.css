@@ -207,7 +207,8 @@ a.btn-circle-blog
 
 /*フッター*/
 .references {
-    margin: 20px 30px;
+    width: 1000px;
+    margin: 20px auto;
 }
 .copyright {
     width: 400px;
