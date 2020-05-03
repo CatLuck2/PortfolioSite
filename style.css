@@ -102,6 +102,7 @@ body {
 
 /*プロフィール*/
 .profile {
+    padding-top: 20px;
     background-color: #EEEEEE;
 }
 .profile:after {
@@ -112,6 +113,8 @@ body {
 .profile p {
     font-family: 'Quicksand', sans-serif;
     font-size: 300%;
+    /* padding-top: 20px;*/
+    margin: 0; 
     text-align: center;
 }
 .profile-box1 {
@@ -149,11 +152,12 @@ body {
 }
 .skill-text {
     width: 300px;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 .skill-text p {
     font-family: 'Quicksand', sans-serif;
     font-size: 300%;
+    margin: 20px 0;
     text-align: center;
 }
 .skill-icon {
@@ -171,16 +175,21 @@ body {
 
 /*ポートフォリオ*/
 .portfolio {
-    background-color: #EEEEEE;
+    padding: 20px 0;
+    background-color: #EEEEEE;;
+}
+.portfolio-text {
+    padding-bottom: 20px;
 }
 .portfolio-text p {
     font-family: 'Quicksand', sans-serif;
     font-size: 300%;
+    margin: 0;
     text-align: center;
 }
 .portfolio-app {
     max-width: 80%;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 .btn-app {
     max-width: 32.8%;
@@ -190,13 +199,14 @@ body {
 
 /*お問い合わせ*/
 .contact {
+    padding-top: 10px;
     /* background-color: yellow; */
 }
 .contact-text p {
     font-family: 'Quicksand', sans-serif;
     font-size: 300%;
     width: 200px;
-    margin: 20px auto;
+    margin: 0 auto;
     text-align: center;
 }
 .contact-icon {
@@ -313,22 +323,36 @@ a.btn-circle-blog
 
 /*フッター*/
 .footer {
+    padding: 20px 0;
     background-color: #EEEEEE;
 }
 .references {
     width: 300px;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 .references p {
-    margin: 0;
     text-align: center;
 }
 .ref-title {
+    margin: 0;
+    padding-bottom: 20px;
+}
+.ref-title p {
     font-family: 'Quicksand', sans-serif;
     font-size: 300%;
+    margin: 0;
+}
+.ref-contact p {
+    margin: 0;
 }
 .ref-contact a {
     font-size: 10px;
+}
+.ref-skill {
+    padding-top: 20px;
+}
+.ref-skill p {
+    margin: 0;
 }
 .ref-skill a {
     font-size: 10px;
