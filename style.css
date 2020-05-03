@@ -70,6 +70,24 @@ body {
 
 
 /*ホーム*/
+.home {
+    position: relative;
+}
+.home p {
+    position: absolute;
+    color: #ffffff;
+    width: 800px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
 .home-image {
     max-width: 100%;
     vertical-align: bottom;
