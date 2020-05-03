@@ -16,10 +16,15 @@ body {
 
 
 /*メニュー*/
-.menu-box {
+.menu {
     padding-left: 15px;
     padding-right: 15px;
     background-color: #8EF1FF;
+}
+.menu:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 .menu-box:after {
     content: "";
@@ -119,7 +124,7 @@ body {
     clear: both;
 }
 .profile-box2 {
-    width: 500px;
+    width: 600px;
     margin: 20px auto;
 }
 .profile-box2:after {
