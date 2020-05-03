@@ -8,6 +8,7 @@ body {
     font-family: "メイリオ","Hiragino Kaku Gothic Pro",sans-serif;
 }
 
+
 /*メニュー*/
 .menu-box {
     padding-left: 15px;
@@ -61,6 +62,7 @@ body {
     width: auto;
 }
 
+
 /*ホーム*/
 .home {
     
@@ -69,6 +71,7 @@ body {
     max-width: 100%;
     vertical-align: bottom;
 }
+
 
 /*プロフィール*/
 .profile {
@@ -79,6 +82,9 @@ body {
     display: block;
     clear: both;
 }
+.profile p {
+    text-align: center;
+}
 .profile-image {
     max-width: 20%;
     border-radius: 300px;
@@ -88,10 +94,31 @@ body {
     float: left;
 }
 
+
 /*スキル*/
 .skill {
-    background-color: blue;
+    background-color: cyan;
 }
+.skill-text {
+    width: 300px;
+    margin: 20px auto;
+}
+.skill-text p {
+    text-align: center;
+}
+.skill-icon {
+    width: 500px;
+    margin: 20px auto;
+}
+.skill-icon-box {
+    display: inline-block;
+    text-align: center;
+}
+.skill-icon img {
+    width: 20%;
+    padding: 0 10px;
+}
+
 
 /*ポートフォリオ*/
 .portfolio {
@@ -100,6 +127,7 @@ body {
 .btn-app {
     max-width: 300px;
 }
+
 
 /*お問い合わせ*/
 .contact {
@@ -204,6 +232,7 @@ a.btn-circle-blog
 {
   background: #22b8ff;
 }
+
 
 /*フッター*/
 .references {
