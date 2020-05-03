@@ -8,6 +8,12 @@ body {
     font-family: "メイリオ","Hiragino Kaku Gothic Pro",sans-serif;
 }
 
+/*改行*/
+.enter::after {
+    content: "\A";
+    white-space: pre;
+}
+
 
 /*メニュー*/
 .menu-box {
@@ -82,13 +88,32 @@ body {
 .profile p {
     text-align: center;
 }
+.profile-box1 {
+    width: 900px;
+    margin: 20px auto;
+}
+.profile-box1:after {
+    content:"";
+    display: block;
+    clear: both;
+}
+.profile-box2 {
+    width: 500px;
+    margin: 20px auto;
+}
+.profile-box2:after {
+    content:"";
+    display: block;
+    clear: both;
+}
 .profile-image {
-    max-width: 20%;
+    margin: auto 5px;
+    max-width: 35%;
     border-radius: 300px;
     float: left;
 }
 .profile-text {
-    float: left;
+    float: right;
 }
 
 
