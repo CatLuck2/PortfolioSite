@@ -19,6 +19,7 @@ body {
 .menu-box {
     padding-left: 15px;
     padding-right: 15px;
+    background-color: #8EF1FF;
 }
 .menu-box:after {
     content: "";
@@ -96,7 +97,7 @@ body {
 
 /*プロフィール*/
 .profile {
-    background-color: red;
+    /* background-color: red; */
 }
 .profile:after {
     content:"";
@@ -137,7 +138,7 @@ body {
 
 /*スキル*/
 .skill {
-    background-color: cyan;
+    background-color: #EEEEEE;
 }
 .skill-text {
     width: 300px;
@@ -161,7 +162,7 @@ body {
 
 /*ポートフォリオ*/
 .portfolio {
-    background-color: green;
+    background-color: #EEEEEE;
 }
 .portfolio-text p {
     text-align: center;
@@ -178,7 +179,7 @@ body {
 
 /*お問い合わせ*/
 .contact {
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .contact-text p {
     width: 200px;
@@ -298,15 +299,22 @@ a.btn-circle-blog
 
 
 /*フッター*/
+.footer {
+    background-color: #EEEEEE;
+}
 .references {
     width: 300px;
     margin: 20px auto;
 }
 .references p {
+    margin: 0;
     text-align: center;
 }
-.references a {
-    text-align: center;
+.ref-contact a {
+    font-size: 10px;
+}
+.ref-skill a {
+    font-size: 10px;
 }
 .copyright {
     width: 320px;
