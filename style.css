@@ -62,7 +62,6 @@ body {
     text-decoration: none;
 }
 .menu li a:hover {
-    background-color: #000000;
 }
 .menu ul:after{
     content: "";
@@ -188,7 +187,7 @@ body {
     text-align: center;
 }
 .portfolio-app {
-    max-width: 80%;
+    max-width: 60%;
     margin: 0 auto;
 }
 .btn-app {
