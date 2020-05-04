@@ -147,6 +147,20 @@ a:hover {
         margin: 0 auto;
         /* text-align: center; */
     }
+
+    /*ポートフォリオ*/
+    .portfolio-app-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .portfolio-app-box a {
+        padding-bottom: 20px;
+        width: 800px;
+    }
+    .portfolio-app-box img {
+        width: 800px;
+    }
 }
 
 /*メニュー 768px以上 （パソコン）*/
@@ -343,7 +357,6 @@ a:hover {
 }
 .portfolio-app {
     max-width: 80%;
-    /* width: 00px; */
     margin: 0 auto;
 }
 .portfolio-app-box {
