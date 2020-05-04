@@ -14,9 +14,21 @@ body {
     white-space: pre;
 }
 
+/*リンク*/
+a {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black
+}
+a:hover {
+    color: blue;
+}
 
 /*メニュー 767px以下 （スマホ、タブレット）*/
 @media (max-width:767px) {
+    /*ハンバーガーメニュー*/
     .menu-box {
         display: none;
     }
@@ -25,21 +37,15 @@ body {
         padding: 20px;
         padding-left: 30px;
     }
-    
-    /*チェックボックス等は非表示に*/
     .nav-unshown {
         display:none;
     }
-    
-    /*アイコンのスペース*/
     #nav-open {
         display: inline-block;
         width: 30px;
         height: 22px;
         vertical-align: middle;
     }
-    
-    /*ハンバーガーの形をCSSで表現*/
     #nav-open span, #nav-open span:before, #nav-open span:after {
         position: absolute;
         height: 3px;/*線の太さ*/
@@ -56,8 +62,6 @@ body {
     #nav-open span:after {
         bottom: -16px;
     }
-    
-    /*閉じる用の薄黒箇所*/
     #nav-close {
         display: none;
         position: fixed;
@@ -70,8 +74,6 @@ body {
         opacity: 0;
         transition: .3s ease-in-out;
     }
-    
-    /*メニューの中身*/
     #nav-content {
         overflow: auto;
         position: fixed;
@@ -94,22 +96,15 @@ body {
         font-size: 20px;
         list-style: none;
     }
-    a {
-        text-decoration: none;
-    }
-    
-    /*チェックがついたら表示させる*/
     #nav-input:checked ~ #nav-close {
         display: block;
         opacity: .5;
     }
-    
     #nav-input:checked ~ #nav-content {
         -webkit-transform: translateX(0%);
         transform: translateX(0%);
         box-shadow: 6px 0 25px rgba(0,0,0,.15);
     }
-    
     .header-logo-menu{
         display: flex;
         display: -moz-flex;
@@ -123,12 +118,28 @@ body {
         -ms-flex-direction: row;
         background-color: #000000;
     }
-      
-    /*ロゴやサイトタイトルをセンタリング*/
     .logo-area {
         font-size: 30px;
         color: #fff;
         text-align:center;margin:auto;
+    }
+
+    /*プロフィール*/
+    .profile-box1 {
+        /* max-width: 60%; */
+        margin: 0;
+    }
+    .profile-box2 {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .profile-image-box1 {
+        text-align: center;
+    }
+    .profile-text  {
+        max-width: 80%;
+        margin: 0 auto;
+        /* text-align: center; */
     }
 }
 
@@ -198,6 +209,43 @@ body {
         float: left;
         width: auto;
     }
+
+    /*プロフィール*/
+    .profile:after {
+        content:"";
+        display: block;
+        clear: both;
+    }
+    .profile p {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 300%;
+        margin: 0; 
+        text-align: center;
+    }
+    .profile-box1 {
+        max-width: 80%;
+        margin: 20px auto;
+    }
+    .profile-box1:after {
+        content:"";
+        display: block;
+        clear: both;
+    }
+    .profile-box2 {
+        max-width: 90%;
+        margin: 20px auto;
+    }
+    .profile-box2:after {
+        content:"";
+        display: block;
+        clear: both;
+    }
+    .profile-image {
+        float: left;
+    }
+    .profile-text {
+        float: left;
+    }
 }
 
 
@@ -233,46 +281,16 @@ body {
     padding-top: 20px;
     background-color: #EEEEEE;
 }
-.profile:after {
-    content:"";
-    display: block;
-    clear: both;
-}
 .profile p {
     font-family: 'Quicksand', sans-serif;
     font-size: 300%;
-    /* padding-top: 20px;*/
     margin: 0; 
     text-align: center;
-}
-.profile-box1 {
-    max-width: 80%;
-    /* width: 900px; */
-    margin: 20px auto;
-}
-.profile-box1:after {
-    content:"";
-    display: block;
-    clear: both;
-}
-.profile-box2 {
-    max-width: 90%;
-    /* width: 600px; */
-    margin: 20px auto;
-}
-.profile-box2:after {
-    content:"";
-    display: block;
-    clear: both;
 }
 .profile-image {
     margin: auto 5px;
     max-width: 35%;
     border-radius: 300px;
-    float: left;
-}
-.profile-text {
-    float: left;
 }
 
 
