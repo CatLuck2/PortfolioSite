@@ -124,6 +124,12 @@ a:hover {
         text-align:center;margin:auto;
     }
 
+
+    /*ホーム*/
+    .home p {
+        font-size: 15px;
+    }
+
     /*プロフィール*/
     .profile-box1 {
         /* max-width: 60%; */
@@ -254,7 +260,7 @@ a:hover {
     position: relative;
 }
 .home-text {
-    max-width: 90%;
+    /* max-width: 90%; */
 }
 .home p {
     position: absolute;
@@ -278,7 +284,7 @@ a:hover {
 
 /*プロフィール*/
 .profile {
-    padding-top: 20px;
+    padding: 20px 0;
     background-color: #EEEEEE;
 }
 .profile p {
