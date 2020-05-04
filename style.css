@@ -117,7 +117,8 @@ body {
     text-align: center;
 }
 .profile-box1 {
-    width: 900px;
+    max-width: 80%;
+    /* width: 900px; */
     margin: 20px auto;
 }
 .profile-box1:after {
@@ -126,7 +127,8 @@ body {
     clear: both;
 }
 .profile-box2 {
-    width: 600px;
+    max-width: 90%;
+    /* width: 600px; */
     margin: 20px auto;
 }
 .profile-box2:after {
@@ -141,7 +143,7 @@ body {
     float: left;
 }
 .profile-text {
-    float: right;
+    float: left;
 }
 
 
@@ -160,15 +162,15 @@ body {
     text-align: center;
 }
 .skill-icon {
-    width: 500px;
+    max-width: 80%;
     margin: 20px auto;
 }
 .skill-icon-box {
     text-align: center;
 }
 .skill-icon img {
-    width: 20%;
-    padding: 0 10px;
+    width: 15%;
+    padding: 0 5px;
 }
 
 
@@ -187,11 +189,15 @@ body {
     text-align: center;
 }
 .portfolio-app {
-    max-width: 60%;
+    max-width: 80%;
+    /* width: 00px; */
     margin: 0 auto;
 }
+.portfolio-app-box {
+    text-align: center;
+}
 .btn-app {
-    max-width: 32.8%;
+    max-width: 28%;
 }
 
 
@@ -209,15 +215,16 @@ body {
     text-align: center;
 }
 .contact-icon {
-    width: 500px;
+    max-width: 80%;
+    /* width: 500px; */
     margin: 20px auto;
 }
 .contact-icon-box {
     text-align: center;
 }
-.contact-icon p {
+.contact-icon a {
     width: 20%;
-    padding: 0 10px;
+    /* padding: 0 10px; */
 }
 /*Twitter*/
 a.icon-twitter {
