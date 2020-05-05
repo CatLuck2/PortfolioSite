@@ -217,6 +217,44 @@ a:hover {
 .work-image img {
     width: 35%;
 }
+/*タイル画像*/
+.grid-image ul {
+    list-style-type: none;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 20px;
+    /* display:grid; */
+    /* grid-gap: 1rem; */
+}
+.grid-image li {
+    display: inline-block;
+    width: 100px;
+    height: 140px;
+    font-size: 26px;
+    /* background-color: lightgray; */
+    border: solid 1px black;
+}
+.im1 {
+    background-image: url("img/MoneyMonth/Simulator Screen Shot - iPhone 8 - 2020-05-03 at 13.04.52.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.im2 {
+    background-image: url("img/MoneyMonth/Simulator Screen Shot - iPhone 8 - 2020-05-03 at 13.04.53.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.im3 {
+    background-image: url("img/MoneyMonth/Simulator Screen Shot - iPhone 8 - 2020-05-03 at 13.04.55.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.im4 {
+    background-image: url("img/MoneyMonth/Simulator Screen Shot - iPhone 8 - 2020-05-03 at 13.04.56.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 /*概要*/
 .summary1 p {
     text-align: center;
