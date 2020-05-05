@@ -120,6 +120,10 @@ a:hover {
         text-align:center;margin:auto;
     }
 
+    /*概要*/
+    .summary1 p {
+        padding: 0 50px;
+    }
 }
 
 
@@ -188,4 +192,80 @@ a:hover {
         float: left;
         width: auto;
     }
+
+    /*概要*/
+    .summary1 p {
+        padding: 0 100px;
+    }
+}
+
+
+.work {
+    background-color: #EEEEEE;
+}
+/*タイトル*/
+.work-text h1 {
+    margin: 0;
+    padding-top: 30px;
+    text-align: center;
+}
+/*画像*/
+.work-image {
+    margin: 40px 0;
+    text-align: center;
+}
+.work-image img {
+    width: 35%;
+}
+/*概要*/
+.summary1 p {
+    text-align: center;
+}
+.summary1-title {
+display: flex;
+align-items: center;
+}
+.summary1-title:before,
+.summary1-title:after {
+border-top: 1px solid;
+content: "";
+flex-grow: 1;
+}
+.summary1-title:before {
+margin-right: 1rem;
+}
+.summary1-title:after {
+margin-left: 1rem;
+}
+.summary2-title {
+display: flex;
+align-items: center;
+}
+/*使用技術*/
+.summary2-title:before,
+.summary2-title:after {
+border-top: 1px solid;
+content: "";
+flex-grow: 1;
+}
+.summary2-title:before {
+margin-right: 1rem;
+}
+.summary2-title:after {
+margin-left: 1rem;
+}
+.summary2 p {
+    text-align: center;
+}
+
+/*ボタン*/
+.button {
+    text-align: center;
+}
+.github_button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 5px;
 }
