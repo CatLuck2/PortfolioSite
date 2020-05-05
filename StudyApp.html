@@ -56,17 +56,43 @@
                 <h1>StudyApp</h1>
             </div>
             <div class="work-image">
-                <img src="img/StudyApp/Simulator Screen Shot - iPhone 8 - 2020-05-03 at 13.04.58.png" alt="" class="">
+                <img src="img/StudyApp/Simulator Screen Shot - iPhone 8 - 2020-05-03 at 13.04.58.png" alt="" id="main-image" class="">
                 <div class="grid-image">
                     <ul>
-                        <li class="im1"></li>
-                        <li class="im2"></li>
-                        <li class="im3"></li>
-                        <li class="im4"></li>
-                        <li class="im5"></li>
-                        <li class="im6"></li>
+                        <li  onclick="click_im1" id="im1" class="im1"></li>
+                        <li  onclick="click_im2" id="im2" class="im2"></li>
+                        <li  onclick="click_im3" id="im3" class="im3"></li>
+                        <li  onclick="click_im4" id="im4" class="im4"></li>
+                        <li  onclick="click_im5" id="im5" class="im5"></li>
+                        <li  onclick="click_im6" id="im6" class="im6"></li>
                     </ul>
                 </div>
+                <script type="text/javascript">
+                    var id_im1 = document.getElementById("im1");
+                    var id_im2 = document.getElementById("im2");
+                    var id_im3 = document.getElementById("im3");
+                    var id_im4 = document.getElementById("im4");
+                    var id_im5 = document.getElementById("im5");
+                    var id_im6 = document.getElementById("im6");
+                    id_im1.onclick = function id1Click() {
+                        document.getElementById("main-image").src = "img/StudyApp/Simulator Screen Shot - iPhone 8 - 2020-05-03 at 13.04.58.png";
+                    }
+                    id_im2.onclick = function () {
+                        document.getElementById("main-image").src = "img/StudyApp/Simulator Screen Shot - iPhone 8 - 2020-05-03 at 13.04.59.png";
+                    }
+                    id_im3.onclick = function id1Click() {
+                        document.getElementById("main-image").src = "img/StudyApp/Simulator Screen Shot - iPhone 8 - 2020-05-03 at 13.05.00.png";
+                    }
+                    id_im4.onclick = function () {
+                        document.getElementById("main-image").src = "img/StudyApp/Simulator Screen Shot - iPhone 8 - 2020-05-03 at 13.05.02.png";
+                    }
+                    id_im5.onclick = function id1Click() {
+                        document.getElementById("main-image").src = "img/StudyApp/Simulator Screen Shot - iPhone 8 - 2020-05-03 at 13.05.04.png";
+                    }
+                    id_im6.onclick = function () {
+                        document.getElementById("main-image").src = "img/StudyApp/Simulator Screen Shot - iPhone 8 - 2020-05-03 at 13.05.05.png";
+                    }
+                </script>
             </div>
             <div class="work-summary">
                 <div class="summary1">
