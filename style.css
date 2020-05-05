@@ -23,6 +23,7 @@ a:visited {
     color: black
 }
 a:hover {
+    cursor: pointer;
     color: blue;
 }
 
@@ -217,8 +218,6 @@ a:hover {
         font-size: 14px;
         text-decoration: none;
     }
-    .menu li a:hover {
-    }
     .menu ul:after{
         content: "";
         display: block;
@@ -272,9 +271,6 @@ a:hover {
 .home {
     position: relative;
 }
-.home-text {
-    /* max-width: 90%; */
-}
 .home p {
     position: absolute;
     color: #ffffff;
@@ -314,9 +310,6 @@ a:hover {
 
 
 /*スキル*/
-.skill {
-    /* background-color: #EEEEEE; */
-}
 .skill-text {
     width: 300px;
     margin: 0 auto;
