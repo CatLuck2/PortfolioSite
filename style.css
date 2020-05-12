@@ -155,11 +155,10 @@ a:hover {
         align-items: center;
     }
     .portfolio-app-box a {
-        padding-bottom: 20px;
-        width: 800px;
+        margin-bottom: 20px;
     }
     .portfolio-app-box img {
-        width: 800px;
+        max-width: 45%;
     }
 }
 
